@@ -1,30 +1,31 @@
 #skills{
-   width: 80vw;
+   width: 70vw;
    margin: auto;
-   margin-top: 5vw;
+   margin-top: 7vw;
    text-align: center;
 }
 
 #skills h1{
-   font-size: 3vw;
+   font-size: 2.5vw;
    color: #0048e4;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    margin-top: 0.5vw;
 }
 #skills hr{
-   width: 6.6vw;
-   height: 0.5vw;
+   width: 6.4vw;
+   height: 0.4vw;
    background-color: #006ae4;
    color: #006ae4;
    border-radius: 30px;
    border: transparent;
-   margin-top: -2vw;
+   margin-top: -1.5vw;
 }
 
 #both_skill{
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
    text-align: left;
-   justify-content: space-around;
+   column-gap: 4.5vw;
 }
 #tech_skill > div{
    margin-top: 0.7vw;
@@ -36,9 +37,12 @@
    border-bottom-left-radius: 20%;
    border-top-left-radius: 25%;
    border-bottom-right-radius: 25%;
-   border-top-right-radius: 15px;
+   border-top-right-radius: 6px;
    font-size: 1.5vw;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#tech_skill > div > h3:hover{
+   font-size: 1.8vw;
 }
 #tech_skill > div > img{
    height: 96%;
@@ -46,7 +50,7 @@
 #tech_skill h2{
    font-size: 2.5vw;
    text-align: center;
-   color: rgb(9, 78, 9);
+   color: rgb(0, 92, 0);
 }
 #soft_skill h3{
    background-color: rgba(255, 255, 255, 0.705);
@@ -54,9 +58,12 @@
    border-bottom-left-radius: 20%;
    border-top-left-radius: 25%;
    border-bottom-right-radius: 25%;
-   border-top-right-radius: 15px;
+   border-top-right-radius: 6px;
    font-size: 1.7vw;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#soft_skill h3:hover{
+   font-size: 1.75vw;
 }
 #soft_skill h2{
    font-size: 2.5vw;

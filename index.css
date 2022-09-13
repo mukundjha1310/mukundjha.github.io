@@ -7,13 +7,13 @@ body {
   height: 100%;
   background: linear-gradient(
     50deg,
-    #ffc4b2,
-    #b3ebff,
-    #acffec,
-    #fff2aa
+    #ffb59f,
+    #91e2ff,
+    #8dffe4,
+    #ffef93
   );
   background-size: 600% 100%;
-  animation: gradient 8s linear infinite;
+  animation: gradient 4s linear infinite;
   animation-direction: alternate;
 }
 @keyframes gradient {
@@ -77,14 +77,15 @@ body {
    font-size: 1.28vw;
 }
 #intro_ProfilePic{
-   width: 100vw;
+   width: 90vw;
    display: grid;
    grid-template-columns: 38vw 29vw;
    justify-content: space-around;
+   margin: auto;
 }
 #intro{
    height: auto;
-   font-size: 2.2vw;
+   font-size: 2.1vw;
    background-color: rgba(252, 247, 225, 0.63);
    line-height: 6.5vw;
    padding: 0.5vw;
@@ -102,6 +103,9 @@ body {
    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 }
+#intro > h1 > span{
+   font-size: 4.9vw;
+}
 #intro > h3{
    line-height: 3.5vw;
    font-size: 2.1vw;
@@ -111,11 +115,12 @@ body {
    margin-top: 7.5vw;
 }
 #ProPic > img{
-   width: 100%;
+   width: 90%;
+   margin-top: 2vw;
 }
 #ProPic > img:hover{
-   width: 100.6%;
-   transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+   width: 100%;
+   transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.35s;
 }
 #CV{
    margin-top: 2vw;

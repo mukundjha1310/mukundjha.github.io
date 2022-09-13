@@ -1,0 +1,79 @@
+#contact{
+   margin-top: 5vw;
+   background-color: rgb(31, 34, 65);
+   text-align: center;
+   height: 40vw;
+   padding-top: 1vw;
+}
+
+#contact > h2{
+   font-size: 2.3vw;
+   color: #087bff;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contact > hr{
+   width: 10vw;
+   height: 0.2vw;
+   background-color: #006ae4;
+   color: #006ae4;
+   border-radius: 30px;
+   border: transparent;
+   margin-top: -1.5vw;
+}
+#contact > h1{
+   font-size: 3.9vw;
+   color: #fff4dd;
+}
+#contact > h1:hover{
+   font-size: 4vw;
+   color: #fdca5c;
+   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+}
+#contact > h3{
+   color: #fff4dd;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   line-height: 1.2vw;
+   font-size: 1.3vw;
+}
+#contact > h3:hover{
+   color: #006ae4;
+   font-size: 1.4vw;
+}
+#contact > h3 > span{
+   font-size: 2.5vw;
+}
+
+#social_icons{
+   display: flex;
+   width: 50vw;
+   height: 3.5vw;
+   column-gap: 3vw;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+   margin-top: 6vw;
+}
+#social_icons>div{
+   height: 100%;
+}
+#social_icons>div:hover{
+   height: 105%;
+   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+}
+#social_icons>div>img{
+   height: 90%;
+}
+#social_icons>div>h4>a{
+   text-decoration: none;
+   color: #fff4dd;
+   font-size: 1.2vw;
+}
+#social_icons>div>h4{
+   margin-top: 0.1vw;
+}
+#social_icons>div>h4>a:hover{
+   color: #006ae4;
+   font-size: 1.3vw;
+   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+}
+

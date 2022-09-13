@@ -1,0 +1,53 @@
+#exp{
+   text-align: center;
+   width: 70vw;
+   margin: auto;
+   margin-top: 6vw;
+}
+#exp>h1{
+   font-size: 2.5vw;
+   color: #0048e4;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 0.5vw;
+}
+#exp>hr{
+   width: 17vw;
+   height: 0.4vw;
+   background-color: #006ae4;
+   color: #006ae4;
+   border-radius: 30px;
+   border: transparent;
+   margin-top: -1.3vw;
+}
+#exp > div{
+   margin-top: 2vw;
+   margin-top: 4vw;
+}
+
+#exp > div{
+   display: grid;
+   grid-template-columns: 70% 30%;
+}
+#exp > div > div > img{
+   width: 78%;
+   margin-top: 1vw;
+}
+#exp > div > div:first-child{
+   text-align: left;
+   font-size: 1.7vw;
+   box-sizing: border-box;
+   padding: 1vw;
+   line-height: 1vw;
+   padding-left: 5vw;
+   background-color: rgba(255, 255, 255, 0.616);
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+   border-radius: 15%;
+   border-top-left-radius: 20%;
+   border-bottom-right-radius: 50%;
+   border-top-right-radius: 10px;
+}
+#exp > div > div:first-child:hover{
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
