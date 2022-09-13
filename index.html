@@ -6,25 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mukund Jha</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div id="navbar">
-      <div>
-        <img
-          src="MJLogo.jpg"
-          alt=""
-        />
+      <div id="logo">
+        <a href="index.html"><img src="MJLogo.jpg" alt="Img" /></a>
       </div>
       <div id="navbutton">
-        <div>ABOUT</div>
-        <div>RESUME</div>
-        <div>PROJECTS</div>
-        <div>CONTACTS</div>
+        <div><a href="">HOME</a></div>
+        <div><a href="#about">ABOUT</a></div>
+        <div><a href="#skills">SKILLS</a></div>
+        <div><a href="">PROJECTS</a></div>
+        <div><a href="">CONTACTS</a></div>
       </div>
     </div>
-    <div id="intro">
-      <h1>Hey I'm Mukund Jha</h1>
-      <h3>Obviously I'm a qualified and professional Java Developer.</h3>
+
+    <div id="intro_ProfilePic">
+      <div>
+        <div id="intro">
+          <h1>Hey I'm Mukund Jha</h1>
+          <h3>I'm a qualified and professional Java Developer.</h3>
+        </div>
+
+        <button id="CV">
+          <i class="fa fa-download"></i>
+          <a href="Mukund_Jha_Resume.pdf" target="_blank" download="">
+            Download CV</a
+          >
+        </button>
+      </div>
+      <div id="ProPic">
+        <img src="Profile_Pic.png" alt="Profile Picture" />
+      </div>
+    </div>
+
+    <div id="about">
+      <h1>About</h1>
+      <hr />
+      <div>
+        I'm qualified and professional Java backend developer, logical and
+        organized individual with a strong foundation in Backend Development.
+        Passionate about coding and Seeking to raise coding KPIs by providing
+        error-free codes. Ability to translate business requirements into
+        innovative software solutions. Excellent teamwork, and interpersonal
+        skills. Looking to start a career as an entry-level professional with an
+        organization.
+      </div>
+    </div>
+
+    <div id="skills">
+      <h1>Skills</h1>
+      <hr />
+      <div id="both_skill">
+        <div id="tech_skill">
+          <h2>Technical Skills</h2>
+          <div>
+            <img src="java.png" alt="" />
+            <h3>JAVA</h3>
+          </div>
+          <div>
+            <img src="SB.png" alt="" />
+            <h3>SPRINGBOOT</h3>
+          </div>
+          <div>
+            <img src="SQL.png" alt="" />
+            <h3>SQL</h3>
+          </div>
+          <div>
+            <img src="html.png" alt="" />
+            <h3>HTML</h3>
+          </div>
+          <div>
+            <img src="css.png" alt="" />
+            <h3>CSS</h3>
+          </div>
+          <div>
+            <img src="JavaScript.png" alt="" />
+            <h3>JavaScript</h3>
+          </div>
+          <div>
+            <img src="dsa.webp" alt="" />
+            <h3>Data Structures & Algorithms</h3>
+          </div>
+        </div>
+        <div id="soft_skill">
+          <h2>Soft Skills</h2>
+          <h3>Continuous learning</h3>
+          <h3>Problem-Solving</h3>
+          <h3>Time Management</h3>
+          <h3>Project Management</h3>
+          <h3>Remote work and Online Collaboration</h3>
+        </div>
+      </div>
     </div>
   </body>
 </html>

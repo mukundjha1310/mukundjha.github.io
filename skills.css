@@ -1,0 +1,65 @@
+#skills{
+   width: 80vw;
+   margin: auto;
+   margin-top: 5vw;
+   text-align: center;
+}
+
+#skills h1{
+   font-size: 3vw;
+   color: #0048e4;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 0.5vw;
+}
+#skills hr{
+   width: 6.6vw;
+   height: 0.5vw;
+   background-color: #006ae4;
+   color: #006ae4;
+   border-radius: 30px;
+   border: transparent;
+   margin-top: -2vw;
+}
+
+#both_skill{
+   display: flex;
+   text-align: left;
+   justify-content: space-around;
+}
+#tech_skill > div{
+   margin-top: 0.7vw;
+   height: 5vw;
+   display: flex;
+   justify-content: space-between;
+   padding: 1vw 2vw;
+   background-color: rgba(255, 255, 255, 0.705);
+   border-bottom-left-radius: 20%;
+   border-top-left-radius: 25%;
+   border-bottom-right-radius: 25%;
+   border-top-right-radius: 15px;
+   font-size: 1.5vw;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#tech_skill > div > img{
+   height: 96%;
+}
+#tech_skill h2{
+   font-size: 2.5vw;
+   text-align: center;
+   color: rgb(9, 78, 9);
+}
+#soft_skill h3{
+   background-color: rgba(255, 255, 255, 0.705);
+   padding: 2vw 3vw;
+   border-bottom-left-radius: 20%;
+   border-top-left-radius: 25%;
+   border-bottom-right-radius: 25%;
+   border-top-right-radius: 15px;
+   font-size: 1.7vw;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#soft_skill h2{
+   font-size: 2.5vw;
+   text-align: center;
+   color: rgb(9, 78, 9);
+}
