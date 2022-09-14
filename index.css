@@ -9,7 +9,6 @@ body {
     50deg,
     #ffb59f,
     #91e2ff,
-    #8dffe4,
     #ffef93
   );
   background-size: 600% 100%;
@@ -86,7 +85,7 @@ body {
 #intro{
    height: auto;
    font-size: 2.1vw;
-   background-color: rgba(252, 247, 225, 0.63);
+   background-color: rgba(252, 234, 225, 0.842);
    line-height: 6.5vw;
    padding: 0.5vw;
    padding-top: -8vw;

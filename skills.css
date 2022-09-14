@@ -33,7 +33,8 @@
    display: flex;
    justify-content: space-between;
    padding: 1vw 2vw;
-   background-color: rgba(255, 255, 255, 0.705);
+   background-color: #0c2050dc;
+   color: rgb(255, 246, 217);
    border-bottom-left-radius: 20%;
    border-top-left-radius: 25%;
    border-bottom-right-radius: 25%;
@@ -50,10 +51,11 @@
 #tech_skill h2{
    font-size: 2.5vw;
    text-align: center;
-   color: rgb(0, 92, 0);
+   color: #052369;
 }
 #soft_skill h3{
-   background-color: rgba(255, 255, 255, 0.705);
+   background-color: #0c2050dc;
+   color: rgb(255, 246, 217);
    padding: 2vw 3vw;
    border-bottom-left-radius: 20%;
    border-top-left-radius: 25%;
@@ -68,5 +70,5 @@
 #soft_skill h2{
    font-size: 2.5vw;
    text-align: center;
-   color: rgb(9, 78, 9);
+   color: #052369;
 }
