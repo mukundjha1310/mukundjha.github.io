@@ -24,135 +24,57 @@
   gap: 2vw;
 }
 
-.pieContainer {
-  height: 7.3vw;
-  width: 7.3vw;
-  position: relative;
+#pieContainer1,
+#pieContainer2,
+#pieContainer3,
+#pieContainer4,
+#pieContainer5 {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(75, 75, 75, 0.35) 0px 5px 15px;
 }
 
-.pieBackground {
-  background-color: rgb(27, 27, 27);
-  position: absolute;
-  height: 7.3vw;
-  width: 7.3vw;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  -webkit-box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.534);
-  box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.473);
-}
-
-.stat-circle-cover {
-  position: absolute;
-  top: 0.72vw;
-  right: 0.72vw;
-
+.pieSlice {
   background-color: rgb(51, 51, 51);
-  height: 5.85vw;
-  width: 5.85vw;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-
-  -moz-box-shadow: inset 0px 0px 5px #666;
-  -webkit-box-shadow: inset 0px 0px 5px #666;
-  box-shadow: inset 0px 0px 1px #666;
+  height: 6.6vw;
+  width: 6.6vw;
+  border-radius: 100%;
 }
 
-.stat-circle-cover span.stat-number {
+.pieSlice span.stat-number {
   text-align: center;
   vertical-align: middle;
   width: 100%;
   line-height: 6vw;
   color: #ffc919;
-  position: absolute;
-  top: 0;
-  left: 0;
   font-size: 1.7vw;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
-.pie {
-  position: absolute;
-  height: 7.3vw;
-  width: 7.3vw;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  clip: rect(0px, 50px, 100px, 0px);
+
+#pieContainer1 {
+  background-color: #ff5d1e;
 }
 
-.hold {
-  position: absolute;
-  height: 7.3vw;
-  width: 7.3vw;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  clip: rect(0px, 100px, 100px, 50px);
-}
-
-#pieSlice1_1 .pie,
-#pieSlice2_1 .pie,
-#pieSlice3_1 .pie,
-#pieSlice4_1 .pie,
-#pieSlice5_1 .pie {
-  background-color: #56e05d;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-#pieSlice1_2,
-#pieSlice2_2,
-#pieSlice3_2,
-#pieSlice4_2,
-#pieSlice5_2 {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-#pieSlice1_2 .pie,
-#pieSlice2_2 .pie,
-#pieSlice3_2 .pie,
-#pieSlice4_2 .pie,
-#pieSlice5_2 .pie {
-  background-color: #56e05d;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-#pieSlice2_1 .pie {
-  background-color: #029b2b;
-}
-#pieSlice2_2 .pie {
+#pieContainer2 {
   background-color: #029b2b;
 }
 
-#pieSlice3_1 .pie {
-  background-color: #ffaa34;
+#pieContainer3 {
+  background-color: #1b51c5;
 }
-#pieSlice3_2 .pie {
+
+#pieContainer4 {
   background-color: #ffaa34;
 }
 
-#pieSlice4_1 .pie {
+#pieContainer5 {
   background-color: #c5241b;
-}
-#pieSlice4_2 .pie {
-  background-color: #c5241b;
-}
-
-#pieSlice5_1 .pie {
-  background-color: #1b51c5;
-}
-#pieSlice5_2 .pie {
-  background-color: #1b51c5;
 }
 
 #det {
@@ -165,11 +87,12 @@
 }
 #det > div > h4 {
   margin-top: 0.9vw;
-  font-size: 1.6vw;
+  font-size: 1.7vw;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #det > div > p {
   margin-top: -1.5vw;
   font-weight: bold;
+  font-size: 1.3vw;
 }
