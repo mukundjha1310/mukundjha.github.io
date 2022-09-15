@@ -29,8 +29,7 @@
    grid-template-columns: 70% 30%;
 }
 #exp > div > div > img{
-   width: 78%;
-   margin-top: 1vw;
+   width: 90%;
 }
 #exp > div > div:first-child{
    text-align: left;

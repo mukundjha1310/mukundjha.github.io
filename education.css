@@ -29,7 +29,7 @@
   grid-template-columns: 1fr 1fr;
 }
 #dev > div > img {
-  width: 60%;
+  width: 65%;
   margin-top: -3.5vw;
 }
 #dev > div:first-child {
@@ -58,7 +58,7 @@
   grid-template-columns: 1fr 1fr;
 }
 #bach > div > img {
-  width: 40%;
+  width: 45%;
   margin-top: -1vw;
 }
 #bach > div:last-child {

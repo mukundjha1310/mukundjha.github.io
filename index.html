@@ -26,9 +26,9 @@
         <a href="index.html"><img src="MJLogo.jpg" alt="Img" /></a>
       </div>
       <div id="navbutton">
-        <div><a href="#about">ABOUT</a></div>
-        <div><a href="#edu">EDUCATIONS</a></div>
-        <div><a href="#skills">SKILLS</a></div>
+        <div><a href="#About">ABOUT</a></div>
+        <div><a href="#Educations">EDUCATIONS</a></div>
+        <div><a href="#Skills">SKILLS</a></div>
         <div><a href="">PROJECTS</a></div>
         <div><a href="#contact">CONTACTS</a></div>
       </div>
@@ -54,7 +54,7 @@
     </div>
 
     <!--------------------ABOUT--------------------->
-
+    <div id="About"></div>
     <div id="about">
       <h1>About</h1>
       <hr />
@@ -71,6 +71,7 @@
 
     <!--------------------EDUCATIONS--------------------->
 
+    <div id="Educations"></div>
     <div id="edu">
       <h1>Education</h1>
       <hr />
@@ -120,48 +121,62 @@
 
     <!--------------------SKILLS--------------------->
 
+    <div id="Skills"></div>
     <div id="skills">
       <h1>Skills</h1>
       <hr />
       <div id="both_skill">
-        <div id="tech_skill">
+        <div>
           <h2>Technical Skills</h2>
-          <div>
-            <img src="java.png" alt="" />
-            <h3>JAVA</h3>
-          </div>
-          <div>
-            <img src="SB.png" alt="" />
-            <h3>SpringBoot</h3>
-          </div>
-          <div>
-            <img src="SQL.png" alt="" />
-            <h3>SQL</h3>
-          </div>
-          <div>
-            <img src="html.png" alt="" />
-            <h3>HTML</h3>
-          </div>
-          <div>
-            <img src="css.png" alt="" />
-            <h3>CSS</h3>
-          </div>
-          <div>
-            <img src="JavaScript.png" alt="" />
-            <h3>JavaScript</h3>
-          </div>
-          <div>
-            <img src="dsa.png" alt="" />
-            <h3>DS & ALgo</h3>
+          <div id="tech_skill">
+            <div>
+              <img src="frontend.png" alt="" />
+              <h3>FrontEnd Development</h3>
+            </div>
+            <div>
+              <img src="backend.png" alt="" />
+              <h3>BackEnd Development</h3>
+            </div>
+            <div>
+              <img src="java.png" alt="" />
+              <h3>JAVA</h3>
+            </div>
+            <div>
+              <img src="SB.png" alt="" />
+              <h3>SpringBoot</h3>
+            </div>
+            <div>
+              <img src="SQL.png" alt="" />
+              <h3>SQL</h3>
+            </div>
+            <div>
+              <img src="html.png" alt="" />
+              <h3>HTML</h3>
+            </div>
+            <div>
+              <img src="css.png" alt="" />
+              <h3>CSS</h3>
+            </div>
+            <div>
+              <img src="JavaScript.png" alt="" />
+              <h3>JavaScript</h3>
+            </div>
+            <div>
+              <img src="dsa.png" alt="" />
+              <h3>DS & ALgo</h3>
+            </div>
           </div>
         </div>
-        <div id="soft_skill">
+        <div id="soft_skill_head">
           <h2>Soft Skills</h2>
-          <h3>Continuous learning</h3>
-          <h3>Problem - Solving</h3>
-          <h3>Time Management</h3>
-          <h3>Project Management</h3>
-          <h3>Remote work and Online Collaboration</h3>
+          <div id="soft_skill">
+            <h3>Continuous learning</h3>
+            <h3>Problem - Solving</h3>
+            <h3>Time Management</h3>
+            <h3>Project Management</h3>
+            <h3>Remote work and Online Collaboration</h3>
+            <h3>Public Speaking</h3>
+          </div>
         </div>
       </div>
     </div>
@@ -278,3 +293,14 @@
     </div>
   </body>
 </html>
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute("href")).scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
+</script>
