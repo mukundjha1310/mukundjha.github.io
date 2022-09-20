@@ -1,90 +1,91 @@
-#contact{
-   margin-top: 5vw;
-   background-color: rgb(0, 0, 0);
-   text-align: center;
-   height: 43vw;
-   padding-top: 1vw;
+#contact {
+  margin-top: 5vw;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  height: 43vw;
+  padding-top: 1vw;
 }
 
-#contact > h2{
-   font-size: 2.4vw;
-   color: #ffffff;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+#contact > h2 {
+  font-size: 2.4vw;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#contact > hr{
-   width: 12vw;
-   height: 0.25vw;
-   background-color: #ffa600;
-   color: #ffa600;
-   border-radius: 30px;
-   border: transparent;
-   margin-top: -1.6vw;
+#contact > hr {
+  width: 12vw;
+  height: 0.25vw;
+  background-color: #ffa600;
+  color: #ffa600;
+  border-radius: 30px;
+  border: transparent;
+  margin-top: -1.6vw;
 }
-#contact > h1{
-   font-size: 3.9vw;
-   color: #fffbf1;
+#contact > h1 {
+  font-size: 3.9vw;
+  color: #fffbf1;
 }
-#contact > h1:hover{
-   font-size: 4vw;
-   color: #ffc13a;
-   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+#contact > h1:hover {
+  font-size: 4vw;
+  color: #ffc13a;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
 }
-#num_mail_add{
-   display: grid;
-   grid-template-columns: 28% 34% 34%;
-   justify-content: space-between;
-   width: 60vw;
-   margin: auto;
-   color: white;
+#num_mail_add {
+  display: grid;
+  grid-template-columns: 28% 34% 34%;
+  justify-content: space-between;
+  width: 60vw;
+  margin: auto;
+  color: white;
 }
-#num_mail_add > div{
-   height: 10vw;
-   padding-top: 1.2vw;
-   background-color: rgb(39, 39, 39);
-   border-radius: 20px;
-   font-size: 1.2vw;
-   box-sizing: border-box;
+#num_mail_add > div {
+  height: 10vw;
+  padding-top: 1.2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: rgb(39, 39, 39);
+  border-radius: 20px;
+  font-size: 1.2vw;
+  box-sizing: border-box;
 }
-#num_mail_add > div:hover{
-   box-shadow: rgba(255, 255, 255, 0.24) 5px 10px 16px;
-   transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.25s;
-   border: 2px solid wheat;
+#num_mail_add > div:hover {
+  box-shadow: rgba(255, 255, 255, 0.24) 5px 10px 16px;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.25s;
+  border: 2px solid wheat;
 }
-#num_mail_add > div > img{
-   height: 40%;
-}
-
-#social_icons{
-   display: flex;
-   width: 60vw;
-   height: 3vw;
-   column-gap: 3vw;
-   justify-content: center;
-   text-align: center;
-   margin: auto;
-   margin-top: 6vw;
-}
-#social_icons>div{
-   height: 100%;
-}
-#social_icons>div:hover{
-   height: 105%;
-   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
-}
-#social_icons>div>img{
-   height: 90%;
-}
-#social_icons>div>h4>a{
-   text-decoration: none;
-   color: #fff4dd;
-   font-size: 1.2vw;
-}
-#social_icons>div>h4{
-   margin-top: 0.1vw;
-}
-#social_icons>div>h4>a:hover{
-   color: #006ae4;
-   font-size: 1.3vw;
-   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+#num_mail_add > div > img {
+  height: 40%;
 }
 
+#social_icons {
+  display: flex;
+  width: 60vw;
+  height: 3vw;
+  column-gap: 3vw;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 6vw;
+}
+#social_icons > div {
+  height: 100%;
+}
+#social_icons > div:hover {
+  height: 105%;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+}
+#social_icons > div > img {
+  height: 90%;
+}
+#social_icons > div > h4 > a {
+  text-decoration: none;
+  color: #fff4dd;
+  font-size: 1.2vw;
+}
+#social_icons > div > h4 {
+  margin-top: 0.1vw;
+}
+#social_icons > div > h4 > a:hover {
+  color: #006ae4;
+  font-size: 1.3vw;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+}

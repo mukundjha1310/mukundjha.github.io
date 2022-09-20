@@ -79,7 +79,7 @@
   margin: auto;
 }
 .tech_stacks {
-  width: 50%;
+  width: 30vw;
   display: flex;
   column-gap: 1vw;
   height: 8vw;
