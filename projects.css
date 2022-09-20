@@ -1,0 +1,125 @@
+#projects_div {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.37);
+  margin-top: 4vw;
+  text-align: center;
+  padding-top: 1.6vw;
+  padding-bottom: 3vw;
+}
+#projects {
+  width: 80vw;
+  margin: auto;
+  margin-top: 3vw;
+  display: grid;
+  row-gap: 2vw;
+}
+#projects_div > h1 {
+  font-size: 2.5vw;
+  color: rgb(0, 69, 82);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#projects_div > hr {
+  width: 9.5vw;
+  height: 0.35vw;
+  background-color: #ff9100;
+  color: #ff9100;
+  border-radius: 30px;
+  border: transparent;
+  margin-top: -1.5vw;
+}
+#projects > div {
+  background-color: rgb(0, 52, 61);
+  display: grid;
+  row-gap: 2vw;
+  padding: 2.5vw;
+  border-radius: 1vw;
+}
+
+.img_details {
+  display: flex;
+}
+.img_details > img {
+  width: 60%;
+  border-radius: 3vw;
+  border-top-left-radius: 0.3vw;
+}
+.img_details > img:hover {
+  box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+  transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+}
+.img_details > div {
+  padding-left: 3vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+}
+.img_details > div > h3 {
+  text-align: left;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 2.5vw;
+  background-image: linear-gradient(
+    to right,
+    #d37000 81%,
+    #d37000da 85%,
+    #d37000c0 88%,
+    #d3700018 100%
+  );
+  padding: 0.5vw 1.5vw;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 22vw;
+  font-size: 2.4vw;
+}
+.tech_stacks_live_btn {
+  display: flex;
+  column-gap: 8vw;
+  margin: auto;
+}
+.tech_stacks {
+  width: 50%;
+  display: flex;
+  column-gap: 1vw;
+  height: 8vw;
+}
+.tech_stacks > div {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.945);
+  text-align: center;
+  align-items: center;
+  padding: 1vw;
+  border-radius: 2.5vw;
+  border-top-left-radius: 0.4vw;
+}
+.tech_stacks > div:hover {
+  box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+  transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+}
+.tech_stacks > div > img {
+  height: 100%;
+}
+.gitBtn {
+  width: 30%;
+  display: flex;
+}
+.gitBtn > a > button {
+  margin-top: 2vw;
+  margin-left: 3vw;
+  width: 11vw;
+  border-radius: 7px;
+  font-weight: 900;
+  font-size: 1.3vw;
+  padding: 0.4vw;
+  border: 1px solid #b96300;
+  color: #ffffff;
+  background-color: #d37000;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+.gitBtn > a > button:hover {
+  box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+  transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+}

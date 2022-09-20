@@ -5,16 +5,16 @@
    margin-top: 6vw;
 }
 #exp>h1{
-   font-size: 2.3vw;
-   color: #0048e4;
+   font-size: 2.4vw;
+   color: rgb(10, 41, 90);
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    margin-top: 0.5vw;
 }
 #exp>hr{
-   width: 17vw;
-   height: 0.3vw;
-   background-color: #006ae4;
-   color: #006ae4;
+   width: 20vw;
+   height: 0.35vw;
+   background-color: #ff9100;
+   color: #ff9100;
    border-radius: 30px;
    border: transparent;
    margin-top: -1.3vw;
@@ -38,13 +38,19 @@
    padding: 1vw;
    line-height: 1vw;
    padding-left: 5vw;
-   background-color: rgba(242, 255, 237, 0.747);
+   background: rgb(143,96,9);
+   background: linear-gradient(60deg, rgba(143,96,9,1) 0%, rgba(0,86,134,1) 0%, rgba(17,38,71,1) 100%);
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+   color: rgb(255, 255, 255);
    border-radius: 15%;
    border-top-left-radius: 20%;
-   border-bottom-right-radius: 45%;
-   border-top-right-radius: 10px;
+   border-bottom-right-radius: 40%;
+   border-top-right-radius: 6px;
+}
+#exp > div > div:first-child > h3, h4, h5{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 #exp > div > div:first-child:hover{
    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;

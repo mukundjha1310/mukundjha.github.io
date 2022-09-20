@@ -3,9 +3,9 @@
   text-align: center;
   width: 70vw;
   margin: auto;
-  margin-top: 7vw;
-  padding: 3.5vw;
-  padding-bottom: 3.8vw;
+  margin-top: 6vw;
+  padding: 3vw;
+  padding-bottom: 3.4vw;
   border-radius: 15%;
   border-top-left-radius: 50%;
   border-bottom-right-radius: 25%;
@@ -21,21 +21,21 @@
 }
 #about h1 {
   font-size: 2.5vw;
-  color: #0048e4;
+  color: rgb(0, 54, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 0.5vw;
+  margin-top: -0.6vw;
 }
 #about hr {
-  width: 6.6vw;
-  height: 0.4vw;
-  background-color: #006ae4;
-  color: #006ae4;
+  width: 7vw;
+   height: 0.37vw;
+   background-color: #ff9100;
+   color: #ff9100;
   border-radius: 30px;
   border: transparent;
-  margin-top: -1.5vw;
+  margin-top: -1.6vw;
 }
 #about div {
   font-weight: 600;
-  font-size: 1.6vw;
-  margin-top: 1.5vw;
+  font-size: 1.7vw;
+  margin-top: 1.6vw;
 }
