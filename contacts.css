@@ -1,6 +1,6 @@
 #contact {
   margin-top: 5vw;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 36, 0);
   text-align: center;
   height: 43vw;
   padding-top: 1vw;
@@ -27,11 +27,11 @@
 #contact > h1:hover {
   font-size: 4vw;
   color: #ffc13a;
-  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
 }
 #num_mail_add {
   display: grid;
-  grid-template-columns: 28% 34% 34%;
+  grid-template-columns: 16vw 22vw 20vw;
   justify-content: space-between;
   width: 60vw;
   margin: auto;
@@ -42,14 +42,14 @@
   padding-top: 1.2vw;
   padding-left: 1vw;
   padding-right: 1vw;
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(8, 8, 8);
   border-radius: 20px;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   box-sizing: border-box;
 }
 #num_mail_add > div:hover {
   box-shadow: rgba(255, 255, 255, 0.24) 5px 10px 16px;
-  transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.25s;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
   border: 2px solid wheat;
 }
 #num_mail_add > div > img {
@@ -87,5 +87,5 @@
 #social_icons > div > h4 > a:hover {
   color: #006ae4;
   font-size: 1.3vw;
-  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s;
 }

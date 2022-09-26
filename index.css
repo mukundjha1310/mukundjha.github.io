@@ -5,9 +5,9 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(50deg, #ff906e, #7eddff, #ffea74);
+  background: linear-gradient(50deg, #ffe969, #7ad4f5, #ff9c7e);
   background-size: 600% 100%;
-  animation: gradient 6s linear infinite;
+  animation: gradient 5s linear infinite;
   animation-direction: alternate;
 }
 @keyframes gradient {
@@ -91,7 +91,7 @@ body {
 
 #intro {
   height: auto;
-  font-size: 2.1vw;
+  font-size: 2vw;
   background-color: rgba(255, 255, 255, 0.945);
   line-height: 6.5vw;
   padding: 0.5vw;
@@ -103,7 +103,7 @@ body {
   border-bottom-right-radius: 100px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   border: 2px solid rgba(196, 196, 196, 0.171);
-  margin-top: 8vw;
+  margin-top: 7vw;
 }
 #intro:hover {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -114,11 +114,10 @@ body {
 }
 #intro > h3 {
   line-height: 3.5vw;
-  font-size: 2.1vw;
+  font-size: 2.5vw;
   margin-top: -2vw;
   color: #002f64;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: monospace;
 }
 #ProPic {
   margin-top: 7.5vw;

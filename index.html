@@ -22,12 +22,9 @@
       rel="stylesheet"
       href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
     />
+    <link rel="stylesheet" href="calendar.css" />
   </head>
-  <style>
-    #Calendar {
-      background-color: rgb(235, 235, 235);
-    }
-  </style>
+
   <body>
     <!--------------------NAVBAR--------------------->
 
@@ -47,8 +44,8 @@
     <div id="intro_ProfilePic">
       <div>
         <div id="intro">
-          <h1><span>Hey!</span> I'm Mukund Jha</h1>
-          <h3>I'm a Qualified and Professional JAVA Developer.</h3>
+          <h1><span>Hey! </span> I'm Mukund Jha</h1>
+          <h3>I'm A Qualified And Professional<br />JAVA Developer...</h3>
         </div>
 
         <button id="CV">
@@ -235,7 +232,7 @@
           <p>Commits</p>
         </div>
         <div>
-          <h4>HackerRank</h4>
+          <h4>LeetCode</h4>
           <p>Problems</p>
         </div>
         <div>
@@ -285,12 +282,17 @@
               <a
                 href="https://github.com/mukundjha1310/WEB-19_Team_Dominator"
                 target="_blank"
-                ><button>GitHub Repo</button></a
+                ><button>
+                  GitHub Repo
+                  <i style="font-size: 1.6vw" class="fa">&#xf09b;</i>
+                </button></a
               >
               <a
                 href="https://mukundjha1310.github.io/Dot_and_Key_Clone.github.io/"
                 target="_blank"
-                ><button>Live Site</button></a
+                ><button>
+                  Live Site <i style="font-size: 1.5vw" class="fa">&#xf08e;</i>
+                </button></a
               >
             </div>
           </div>
@@ -327,12 +329,17 @@
               <a
                 href="https://github.com/mukundjha1310/irritating-nerve-230"
                 target="_blank"
-                ><button>GitHub Repo</button></a
+                ><button>
+                  GitHub Repo
+                  <i style="font-size: 1.6vw" class="fa">&#xf09b;</i>
+                </button></a
               >
               <a
                 href="https://mukundjha1310.github.io/Envoy.com_clone.github.io/"
                 target="_blank"
-                ><button>Live Site</button></a
+                ><button>
+                  Live Site <i style="font-size: 1.5vw" class="fa">&#xf08e;</i>
+                </button></a
               >
             </div>
           </div>
@@ -341,8 +348,10 @@
     </div>
 
     <!------------- GitHub Calendar ----------------------->
-
-    <div id="Calendar" class="calendar"></div>
+    <div id="githead">
+      <i style="font-size: 2.2vw" class="fa">&#xf09b;</i> GitHub Contributions
+    </div>
+    <div class="calendar" id="gitHubStyle"></div>
 
     <!--------------------CONTACTS--------------------->
 
@@ -419,9 +428,12 @@
 <!------------- GitHub Calendar ----------------------->
 
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
 <script>
   GitHubCalendar(".calendar", "mukundjha1310");
+
   GitHubCalendar(".calendar", "mukundjha1310", { responsive: true });
+
   GitHubCalendar(".calendar", "mukundjha1310", {
     proxy(username) {
       return fetch(`https://your-proxy.com/github?user=${username}`);
