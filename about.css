@@ -7,7 +7,7 @@
   padding: 3vw;
   padding-bottom: 3.4vw;
   border-radius: 15%;
-  border-top-left-radius: 50%;
+  border-top-left-radius: 40%;
   border-bottom-right-radius: 25%;
   border-top-right-radius: 10px;
   background-color: rgba(255, 255, 255, 0.925);
@@ -36,6 +36,11 @@
 }
 #about div {
   font-weight: 600;
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   margin-top: 1.6vw;
+}
+
+#about div:hover{
+  font-size: 1.7vw;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s;
 }

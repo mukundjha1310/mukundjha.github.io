@@ -34,10 +34,11 @@
 #exp > div > div:first-child {
   text-align: left;
   font-size: 1.7vw;
+  font-family: "Comic Sans MS", Times, serif;
   box-sizing: border-box;
   padding: 1vw;
   line-height: 1vw;
-  padding-left: 5vw;
+  padding-left: 4vw;
   background: rgb(143, 96, 9);
   background: linear-gradient(
     60deg,
@@ -53,10 +54,15 @@
   border-bottom-right-radius: 40%;
   border-top-right-radius: 6px;
 }
-#exp > div > div:first-child > h3,
-h4,
+#exp > div > div:first-child > h4,
 h5 {
   font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 0.5vw;
+}
+#exp > div > div:first-child > h3{
+  font-family: "Comic Sans MS", Times, serif;
+  font-size: 2.2vw;
+  margin-bottom: 3.5vw;
 }
 #exp > div > div:first-child:hover {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;

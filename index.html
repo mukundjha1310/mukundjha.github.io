@@ -38,14 +38,25 @@
         <div><a href="#Skills">SKILLS</a></div>
         <div><a href="#project_sec">PROJECTS</a></div>
         <div><a href="#contact">CONTACTS</a></div>
+        <div>
+          <a
+            href="https://drive.google.com/file/d/1GXw6wWibrTGHNzLaJl0fGLxc5l-5LRGm/view"
+            target="_blank"
+            >RESUME</a
+          >
+        </div>
       </div>
     </div>
 
     <div id="intro_ProfilePic">
       <div>
         <div id="intro">
-          <h1><span>Hey! </span> I'm Mukund Jha</h1>
-          <h3>I'm A Qualified And Professional<br />JAVA Developer...</h3>
+          <div>
+            <h1>Hey!</h1>
+            <img src="wave.png" />
+          </div>
+          <h1>I'm Mukund Jha</h1>
+          <h3>A Qualified And Professional JAVA Developer...</h3>
         </div>
 
         <button id="CV">
@@ -85,10 +96,10 @@
       <div>
         <div id="dev">
           <div>
-            <h3>Java Back-End Development</h3>
+            <h3>Full Stack Java Development</h3>
             <h4>Masai School</h4>
             <h4>Full Time Program</h4>
-            <h4>Apr 2022 - Nov 2022</h4>
+            <h4>Apr 2022 - Dec 2022</h4>
           </div>
           <div>
             <img src="devloper.png" alt="" />
@@ -101,7 +112,7 @@
           <div>
             <h3>Bachelor of Commerce</h3>
             <h4>Mumbai University</h4>
-            <h4>Jun 2017 - Oct 2022</h4>
+            <h4>Jun 2017 - Oct 2020</h4>
           </div>
         </div>
       </div>
@@ -202,7 +213,7 @@
         </div>
         <div id="pieContainer2">
           <div class="pieSlice">
-            <span class="stat-number"> 250+ </span>
+            <span class="stat-number"> 300+ </span>
           </div>
         </div>
         <div id="pieContainer3">
@@ -232,7 +243,7 @@
           <p>Commits</p>
         </div>
         <div>
-          <h4>LeetCode</h4>
+          <h4>HackerRank</h4>
           <p>Problems</p>
         </div>
         <div>
@@ -260,8 +271,8 @@
               <h3>Dot&Key Clone</h3>
               <p>⮞ DotandKey is a beauty care products brand.</p>
               <p>
-                ⮞ A responsive, accessible, dynamic web page to enable users to
-                easily navigate the website.
+                ⮞ A user-friendly, accessible, dynamic web page to enable users
+                to easily navigate the website.
               </p>
               <p>⮞ Collaborative six-member team project.</p>
             </div>
@@ -307,8 +318,8 @@
                 various other organizations.
               </p>
               <p>
-                ⮞ A responsive, accessible, dynamic web page to enable users to
-                easily navigate the website.
+                ⮞ A user-friendly, accessible, dynamic web page to enable users
+                to easily navigate the website.
               </p>
               <p>⮞ Collaborative four-member team project.</p>
             </div>
@@ -362,15 +373,21 @@
       <div id="num_mail_add">
         <div>
           <img src="mobile.png" />
-          <h3>+918482819595</h3>
+          <a href="tel:+918482819595"><h3>+918482819595</h3></a>
         </div>
         <div>
           <img src="email.png" />
-          <h3>mukundjha1310@gmail.com</h3>
+          <a href="mailto:mukundjha1310@gmail.com"
+            ><h3>mukundjha1310@gmail.com</h3></a
+          >
         </div>
         <div>
           <img src="home.png" />
-          <h3>Kalyan, Mumbai, M.H.</h3>
+          <a
+            href="https://www.google.com/maps/place/735W%2B3GG,+Sapna+Industrial+Estate,+Saravali,+Bhiwandi,+Maharashtra+421302/@19.2575181,73.0961714,84m/data=!3m1!1e3!4m15!1m9!4m8!1m3!2m2!1d73.096221!2d19.2575953!1m3!2m2!1d73.0962425!2d19.2575868!3m4!1s0x3be7961b03781ad9:0x197898265a16d7a8!8m2!3d19.257699!4d73.0962907"
+            target="_blank"
+            ><h3>Kalyan, Mumbai, M.H.</h3></a
+          >
         </div>
       </div>
 
@@ -433,10 +450,4 @@
   GitHubCalendar(".calendar", "mukundjha1310");
 
   GitHubCalendar(".calendar", "mukundjha1310", { responsive: true });
-
-  GitHubCalendar(".calendar", "mukundjha1310", {
-    proxy(username) {
-      return fetch(`https://your-proxy.com/github?user=${username}`);
-    },
-  }).then((r) => r.text());
 </script>

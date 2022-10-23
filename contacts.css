@@ -55,6 +55,14 @@
 #num_mail_add > div > img {
   height: 40%;
 }
+#num_mail_add > div > a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#num_mail_add > div > a:hover{
+  color: greenyellow;
+}
 
 #social_icons {
   display: flex;
@@ -70,7 +78,7 @@
   height: 100%;
 }
 #social_icons > div:hover {
-  height: 105%;
+  height: 110%;
   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
 }
 #social_icons > div > img {
@@ -85,7 +93,7 @@
   margin-top: 0.1vw;
 }
 #social_icons > div > h4 > a:hover {
-  color: #006ae4;
+  color: greenyellow;
   font-size: 1.3vw;
-  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.01s;
 }

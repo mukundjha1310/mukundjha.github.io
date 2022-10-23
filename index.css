@@ -22,7 +22,7 @@ body {
 #navbar {
   margin: 0%;
   width: 100%;
-  height: 4.6vw;
+  height: 4.5vw;
   background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
@@ -50,11 +50,11 @@ body {
   z-index: 10002;
 }
 #logo > img:hover {
-  height: 101%;
+  height: 100%;
 }
 #navbutton {
   display: flex;
-  width: 40vw;
+  width: 50vw;
   height: 100%;
   font-weight: 900;
   justify-content: space-between;
@@ -68,14 +68,14 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #navbutton a:hover {
-  color: #006ae4;
+  color: #0064d6;
   font-family: "Comic Sans MS", Times, serif;
-  font-size: 1.28vw;
+  font-size: 1.32vw;
 }
 #intro_ProfilePic {
   width: 100%;
   display: grid;
-  grid-template-columns: 38vw 29vw;
+  grid-template-columns: 40vw 29vw;
   justify-content: space-evenly;
   margin: auto;
   padding-top: 2vw;
@@ -93,14 +93,15 @@ body {
   height: auto;
   font-size: 2vw;
   background-color: rgba(255, 255, 255, 0.945);
-  line-height: 6.5vw;
-  padding: 0.5vw;
+  line-height: 3.5vw;
+  padding: 0.8vw;
   padding-top: -8vw;
-  padding-left: 2.5vw;
+  padding-left: 3vw;
+  padding-right: 2vw;
   border-radius: 10px;
-  border-top-right-radius: 280px;
-  border-top-left-radius: 80px;
-  border-bottom-right-radius: 100px;
+  border-top-right-radius: 300px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 130px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   border: 2px solid rgba(196, 196, 196, 0.171);
   margin-top: 7vw;
@@ -109,15 +110,33 @@ body {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
 }
-#intro > h1 > span {
-  font-size: 4.9vw;
+#intro > div{
+  display: flex;
+  margin-bottom: -1.8vw;
+  margin-left: 0.4vw;
+}
+#intro > div > img{
+  height: 7vw;
+  margin-top: 1.5vw;
+  margin-left: 2.5vw;
+}
+#intro > div > img:hover{
+  height: 8.5vw;
+  transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
+}
+#intro > div > h1{
+  font-size: 5vw;
+}
+#intro > h1 {
+  font-size: 4vw;
 }
 #intro > h3 {
-  line-height: 3.5vw;
+  line-height: 4vw;
   font-size: 2.5vw;
-  margin-top: -2vw;
+  margin-top: -1vw;
+  font-weight: 900;
   color: #002f64;
-  font-family: monospace;
+  font-family: "Brush Script MT";
 }
 #ProPic {
   margin-top: 7.5vw;
@@ -150,6 +169,8 @@ body {
   color: #ffffff;
 }
 #CV:hover {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  width: 12vw;
+  font-size: 1.1vw;
+  box-shadow: rgba(21, 36, 10, 0.35) 0px 5px 15px;
+  transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
 }

@@ -28,18 +28,21 @@
   margin-top: -1.5vw;
 }
 #projects > div {
+  height: 32vw;
   background-color: rgb(0, 52, 61);
   display: grid;
   row-gap: 2vw;
-  padding: 2.5vw;
+  padding: 2vw;
+  padding-bottom: 1vw;
   border-radius: 1vw;
 }
 
 .img_details {
   display: flex;
+  height: 22vw;
 }
 .img_details > img {
-  width: 60%;
+  width: 55%;
   border-radius: 3vw;
   border-top-left-radius: 0.3vw;
 }
@@ -59,7 +62,8 @@
   color: #ffffff;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin-top: 2.5vw;
+  margin-top: 0.6vw;
+  margin-bottom: -0.1vw;
   background-image: linear-gradient(
     to right,
     #d37000 80%,
@@ -72,7 +76,11 @@
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
   width: 22vw;
-  font-size: 2.4vw;
+  font-size: 2.2vw;
+}
+
+.img_details > div > p{
+  line-height: 2vw;
 }
 .tech_stacks_live_btn {
   display: flex;
@@ -80,13 +88,14 @@
   margin: auto;
 }
 .tech_stacks {
-  width: 30vw;
+  width: 25vw;
   display: flex;
   column-gap: 1vw;
-  height: 8vw;
+  height: 7vw;
+  margin-top: -4vw;
 }
 .tech_stacks > div {
-  width: 60%;
+  width: 50%;
   background-color: rgba(255, 255, 255, 0.945);
   text-align: center;
   align-items: center;
@@ -104,10 +113,11 @@
 .gitBtn {
   width: 30%;
   display: flex;
-  margin-left: 6vw;
+  margin-left: 8vw;
+  margin-top: -5vw;
 }
 .gitBtn > a > button {
-  margin-top: 2vw;
+  margin-top: 4vw;
   margin-left: 2vw;
   width: 11vw;
   border-radius: 10px;
