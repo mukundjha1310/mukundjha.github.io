@@ -1,99 +1,327 @@
-#contact {
-  margin-top: 5vw;
-  background-color: rgb(0, 36, 0);
-  text-align: center;
-  height: 43vw;
-  padding-top: 1vw;
+@media only screen and (min-width: 851px) {
+  #contact {
+    margin-top: 5vw;
+    background-color: rgb(0, 36, 0);
+    text-align: center;
+    height: 43vw;
+    padding-top: 1vw;
+  }
+
+  #contact > h2 {
+    font-size: 2.4vw;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #contact > hr {
+    width: 12vw;
+    height: 0.25vw;
+    background-color: #ffa600;
+    color: #ffa600;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -1.6vw;
+  }
+  #contact > h1 {
+    font-size: 3.9vw;
+    color: #fffbf1;
+  }
+  #contact > h1:hover {
+    font-size: 4vw;
+    color: #ffc13a;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+  }
+  #num_mail_add {
+    display: grid;
+    grid-template-columns: 16vw 22vw 20vw;
+    justify-content: space-between;
+    width: 60vw;
+    margin: auto;
+    color: white;
+  }
+  #num_mail_add > div {
+    height: 10vw;
+    padding-top: 1.2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: rgb(8, 8, 8);
+    border-radius: 20px;
+    font-size: 1.1vw;
+    box-sizing: border-box;
+  }
+  #num_mail_add > div:hover {
+    box-shadow: rgba(255, 255, 255, 0.24) 5px 10px 16px;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
+    border: 2px solid wheat;
+  }
+  #num_mail_add > div > img {
+    height: 40%;
+  }
+  #num_mail_add > div > a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  #num_mail_add > div > a:hover {
+    color: greenyellow;
+  }
+
+  #social_icons {
+    display: flex;
+    width: 60vw;
+    height: 3vw;
+    column-gap: 3vw;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 6vw;
+  }
+  #social_icons > div {
+    height: 100%;
+  }
+  #social_icons > div:hover {
+    height: 110%;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+  }
+  #social_icons > div > img {
+    height: 90%;
+  }
+  #social_icons > div > h4 > a {
+    text-decoration: none;
+    color: #fff4dd;
+    font-size: 1.2vw;
+  }
+  #social_icons > div > h4 {
+    margin-top: 0.1vw;
+  }
+  #social_icons > div > h4 > a:hover {
+    color: greenyellow;
+    font-size: 1.3vw;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.01s;
+  }
 }
 
-#contact > h2 {
-  font-size: 2.4vw;
-  color: #ffffff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#contact > hr {
-  width: 12vw;
-  height: 0.25vw;
-  background-color: #ffa600;
-  color: #ffa600;
-  border-radius: 30px;
-  border: transparent;
-  margin-top: -1.6vw;
-}
-#contact > h1 {
-  font-size: 3.9vw;
-  color: #fffbf1;
-}
-#contact > h1:hover {
-  font-size: 4vw;
-  color: #ffc13a;
-  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
-}
-#num_mail_add {
-  display: grid;
-  grid-template-columns: 16vw 22vw 20vw;
-  justify-content: space-between;
-  width: 60vw;
-  margin: auto;
-  color: white;
-}
-#num_mail_add > div {
-  height: 10vw;
-  padding-top: 1.2vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  background-color: rgb(8, 8, 8);
-  border-radius: 20px;
-  font-size: 1.1vw;
-  box-sizing: border-box;
-}
-#num_mail_add > div:hover {
-  box-shadow: rgba(255, 255, 255, 0.24) 5px 10px 16px;
-  transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
-  border: 2px solid wheat;
-}
-#num_mail_add > div > img {
-  height: 40%;
-}
-#num_mail_add > div > a{
-  text-decoration: none;
-  color: #ffffff;
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 551px) and (max-width: 850px) {
+  #contact {
+    margin-top: 5vw;
+    background-color: rgb(0, 36, 0);
+    text-align: center;
+    height: 70vw;
+    padding-top: 1vw;
+  }
+
+  #contact > h2 {
+    font-size: 4vw;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #contact > hr {
+    width: 25vw;
+    height: 0.3vw;
+    background-color: #ffa600;
+    color: #ffa600;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -2.8vw;
+  }
+  #contact > h1 {
+    font-size: 6vw;
+    color: #fffbf1;
+  }
+  #contact > h1:hover {
+    font-size: 6.5vw;
+    color: #ffc13a;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+  }
+  #num_mail_add {
+    display: grid;
+    grid-template-columns: 20vw 32vw 27vw;
+    justify-content: space-between;
+    width: 82vw;
+    margin: auto;
+    color: white;
+  }
+  #num_mail_add > div {
+    height: 15vw;
+    padding-top: 1.2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: rgb(8, 8, 8);
+    border-radius: 20px;
+    font-size: 1.8vw;
+    box-sizing: border-box;
+  }
+  #num_mail_add > div:hover {
+    box-shadow: rgba(255, 255, 255, 0.24) 5px 10px 16px;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
+    border: 2px solid wheat;
+  }
+  #num_mail_add > div > img {
+    height: 40%;
+  }
+  #num_mail_add > div > a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  #num_mail_add > div > a:hover {
+    color: greenyellow;
+  }
+
+  #social_icons {
+    display: flex;
+    width: 80vw;
+    height: 5.6vw;
+    column-gap: 3vw;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 6vw;
+  }
+  #social_icons > div {
+    height: 100%;
+  }
+  #social_icons > div:hover {
+    height: 110%;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+  }
+  #social_icons > div > img {
+    height: 90%;
+  }
+  #social_icons > div > h4 > a {
+    text-decoration: none;
+    color: #fff4dd;
+    font-size: 2.2vw;
+  }
+  #social_icons > div > h4 {
+    margin-top: 0.1vw;
+  }
+  #social_icons > div > h4 > a:hover {
+    color: greenyellow;
+    font-size: 2.3vw;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.01s;
+  }
 }
 
-#num_mail_add > div > a:hover{
-  color: greenyellow;
-}
 
-#social_icons {
-  display: flex;
-  width: 60vw;
-  height: 3vw;
-  column-gap: 3vw;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  margin-top: 6vw;
-}
-#social_icons > div {
-  height: 100%;
-}
-#social_icons > div:hover {
-  height: 110%;
-  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
-}
-#social_icons > div > img {
-  height: 90%;
-}
-#social_icons > div > h4 > a {
-  text-decoration: none;
-  color: #fff4dd;
-  font-size: 1.2vw;
-}
-#social_icons > div > h4 {
-  margin-top: 0.1vw;
-}
-#social_icons > div > h4 > a:hover {
-  color: greenyellow;
-  font-size: 1.3vw;
-  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.01s;
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 550px) and (min-width: 0px) {
+  #contact {
+    margin-top: 5vw;
+    background-color: rgb(0, 36, 0);
+    text-align: center;
+    height: 160vw;
+    padding-top: 1vw;
+  }
+
+  #contact > h2 {
+    font-size: 5.2vw;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #contact > hr {
+    width: 29vw;
+    height: 0.45vw;
+    background-color: #ffa600;
+    color: #ffa600;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -2.6vw;
+  }
+  #contact > h1 {
+    font-size: 8.5vw;
+    color: #fffbf1;
+  }
+  #contact > h1:hover {
+    font-size: 9vw;
+    color: #ffc13a;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+  }
+  #num_mail_add {
+    width: 70vw;
+    margin: auto;
+    color: white;
+  }
+  #num_mail_add > div {
+    height: 24vw;
+    background-color: rgb(8, 8, 8);
+    border-radius: 16px;
+    font-size: 3.8vw;
+    box-sizing: border-box;
+    margin-top: 2.5vw;
+  }
+
+  #num_mail_add > div:first-child{
+    width: 54vw;
+    margin: auto;
+  }
+
+  #num_mail_add > div:hover {
+    box-shadow: rgba(255, 255, 255, 0.24) 5px 10px 16px;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.15s;
+    border: 2px solid wheat;
+  }
+  #num_mail_add > div > img {
+    height: 30%;
+    margin-top: 4vw;
+    margin-bottom: -3.5vw;
+  }
+  #num_mail_add > div > a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  #num_mail_add > div > a:hover {
+    color: greenyellow;
+  }
+
+  #social_icons {
+    display: flex;
+    width: 94vw;
+    height: 10vw;
+    column-gap: 1.5vw;
+    justify-content: center;
+    column-gap: 4vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 8vw;
+  }
+  #social_icons > div {
+    height: 100%;
+  }
+  #social_icons > div:hover {
+    height: 100%;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
+  }
+  #social_icons > div > img {
+    height: 100%;
+  }
+  #social_icons > div > h4 > a {
+    text-decoration: none;
+    color: #fff4dd;
+    font-size: 4vw;
+  }
+  #social_icons > div > h4 {
+    margin-top: 0.1vw;
+  }
+  #social_icons > div > h4 > a:hover {
+    color: greenyellow;
+    font-size: 4.1vw;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.01s;
+  }
 }

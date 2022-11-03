@@ -140,7 +140,7 @@
       rgba(0, 172, 207, 1) 100%
     );
     padding-top: 2vw;
-    padding-bottom: 3vw;
+    padding-bottom: 5vw;
   }
   #edu > h1 {
     font-size: 3.2vw;
@@ -272,21 +272,21 @@
       rgba(0, 172, 207, 1) 100%
     );
     padding-top: 2vw;
-    padding-bottom: 3vw;
+    padding-bottom: 8vw;
   }
   #edu > h1 {
-    font-size: 4.7vw;
+    font-size: 5.2vw;
     color: #ffffff;
     font-family: Georgia, "Times New Roman", Times, serif;
   }
   #edu > hr {
-    width: 22vw;
-    height: 0.35vw;
+    width: 26vw;
+    height: 0.5vw;
     background-color: #ff9900;
     color: #ff9900;
     border-radius: 30px;
     border: transparent;
-    margin-top: -2vw;
+    margin-top: -2.7vw;
     margin-bottom: 2vw;
   }
   #edu > div {
@@ -343,7 +343,7 @@
   #bach {
     margin-top: 4vw;
     display: grid;
-    grid-template-columns: 45% 70%;
+    grid-template-columns: 45% 67%;
     column-gap: 1vw;
     margin-left: -17vw;
   }

@@ -35,16 +35,17 @@ a {
 }
 
 .header > a > img {
-  height: 7%;
+  height: 6.6%;
   border-radius: 20%;
   border-bottom-left-radius: 40%;
   border-bottom-right-radius: 40%;
   cursor: pointer;
   position: fixed;
   margin-left: 2vw;
-  margin-top: 0.5%;
+  margin-top: 0.9%;
   z-index: 100;
 }
+
 
 .header ul {
   margin: 0;
@@ -211,8 +212,7 @@ a {
     margin-left: 2.5vw;
   }
   #intro > div > img:hover {
-    height: 8.5vw;
-    transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
+    transform: scale(1.1);
   }
   #intro > div > h1 {
     font-size: 5vw;
