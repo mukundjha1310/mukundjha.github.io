@@ -1,6 +1,4 @@
-* {
-  font-family: "Comic Sans MS", Times, serif;
-}
+
 body {
   margin: 0;
   width: 100%;
@@ -182,7 +180,6 @@ a {
 
   #intro {
     height: auto;
-    font-size: 2vw;
     background-color: rgba(255, 255, 255, 0.945);
     line-height: 3.5vw;
     padding: 0.8vw;
@@ -215,18 +212,18 @@ a {
     transform: scale(1.1);
   }
   #intro > div > h1 {
-    font-size: 5vw;
+    font-size: 5.8vw;
   }
   #intro > h1 {
-    font-size: 4vw;
+    font-size: 5vw;
+    line-height: 2vw;
   }
   #intro > h3 {
-    line-height: 4vw;
-    font-size: 2.5vw;
-    margin-top: -1vw;
+    line-height: 3.4vw;
+    font-size: 2.7vw;
+    margin-top: -0.5vw;
     font-weight: 900;
     color: #002f64;
-    font-family: "Brush Script MT";
   }
   #ProPic {
     margin-top: 7.5vw;
@@ -237,8 +234,8 @@ a {
     margin-left: 7vw;
   }
   #ProPic > img:hover {
-    width: 93%;
-    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.45s;
+    width: 92%;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s;
   }
   #CV {
     margin-top: 2vw;
@@ -256,12 +253,11 @@ a {
   }
   #CV > a {
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4vw;
     color: #ffffff;
   }
   #CV:hover {
-    width: 12vw;
-    font-size: 1.1vw;
+    width: 13.5vw;
     box-shadow: rgba(21, 36, 10, 0.35) 0px 5px 15px;
     transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
   }
@@ -322,18 +318,17 @@ a {
     transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
   }
   #intro > div > h1 {
-    font-size: 7vw;
+    font-size: 8vw;
   }
   #intro > h1 {
-    font-size: 4.6vw;
+    font-size: 5.8vw;
   }
   #intro > h3 {
     line-height: 4.4vw;
-    font-size: 3.1vw;
+    font-size: 3.2vw;
     margin-top: -1vw;
     font-weight: 900;
     color: #002f64;
-    font-family: "Brush Script MT";
   }
   #ProPic {
     margin-top: 7.5vw;
@@ -363,7 +358,7 @@ a {
   }
   #CV > a {
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     color: #ffffff;
   }
   #CV:hover {
@@ -428,7 +423,7 @@ a {
     font-size: 13vw;
   }
   #intro > h1 {
-    font-size: 8.5vw;
+    font-size: 10vw;
   }
   #intro > h3 {
     line-height: 7.4vw;
@@ -436,7 +431,6 @@ a {
     margin-top: 0vw;
     font-weight: 900;
     color: #002f64;
-    font-family: "Brush Script MT";
   }
   #ProPic {
     margin-top: 7.5vw;
@@ -466,7 +460,7 @@ a {
   }
   #CV > a {
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
     color: #ffffff;
   }
   #CV:hover {

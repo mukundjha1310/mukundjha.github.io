@@ -6,19 +6,18 @@
     margin-top: 6vw;
   }
   #exp > h1 {
-    font-size: 2.4vw;
+    font-size: 3.4vw;
     color: rgb(10, 41, 90);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 0.5vw;
   }
   #exp > hr {
-    width: 20vw;
-    height: 0.35vw;
+    width: 21vw;
+    height: 0.45vw;
     background-color: #ff9100;
     color: #ff9100;
     border-radius: 30px;
     border: transparent;
-    margin-top: -1.3vw;
+    margin-top: -2.3vw;
   }
   #exp > div {
     margin-top: 2vw;
@@ -35,7 +34,6 @@
   #exp > div > div:first-child {
     text-align: left;
     font-size: 2vw;
-    font-family: "Comic Sans MS", Times, serif;
     box-sizing: border-box;
     padding: 1vw;
     line-height: 1vw;
@@ -57,12 +55,10 @@
   }
   #exp > div > div:first-child > h4,
   h5 {
-    font-family: Georgia, "Times New Roman", Times, serif;
     line-height: 0.5vw;
   }
   #exp > div > div:first-child > h3 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 2.5vw;
+    font-size: 3.2vw;
     margin-bottom: 3.5vw;
   }
   #exp > div > div:first-child:hover {
@@ -88,9 +84,8 @@
     padding-left: 3.5vw;
   }
   #exp > h1 {
-    font-size: 2.9vw;
+    font-size: 3.9vw;
     color: rgb(10, 41, 90);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 0.5vw;
   }
   #exp > hr {
@@ -100,7 +95,7 @@
     color: #ff9100;
     border-radius: 30px;
     border: transparent;
-    margin-top: -1.3vw;
+    margin-top: -2.3vw;
   }
   #exp > div {
     margin-top: 2vw;
@@ -118,7 +113,6 @@
   #exp > div > div:first-child {
     text-align: left;
     font-size: 2.55vw;
-    font-family: "Comic Sans MS", Times, serif;
     padding: 1vw;
     line-height: 1vw;
     padding-left: 4vw;
@@ -140,13 +134,11 @@
   }
   #exp > div > div:first-child > h4,
   h5 {
-    font-family: Georgia, "Times New Roman", Times, serif;
     line-height: 0.5vw;
   }
   #exp > div > div:first-child > h3 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 3.2vw;
-    margin-bottom: 3.5vw;
+    font-size: 4.1vw;
+    margin-bottom: 4.5vw;
   }
   #exp > div > div:first-child:hover {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -174,19 +166,18 @@
     padding-bottom: 5vw;
   }
   #exp > h1 {
-    font-size: 4.8vw;
+    font-size: 5.6vw;
     color: rgb(10, 41, 90);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 0.5vw;
   }
   #exp > hr {
-    width: 42vw;
-    height: 0.5vw;
+    width: 33vw;
+    height: 0.7vw;
     background-color: #ff9100;
     color: #ff9100;
     border-radius: 30px;
     border: transparent;
-    margin-top: -2vw;
+    margin-top: -3vw;
   }
   #exp > div {
     margin-top: 2vw;
@@ -223,12 +214,10 @@
   }
   #exp > div > div:first-child > h4,
   h5 {
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 3.6vw;
     line-height: 1vw;
   }
   #exp > div > div:first-child > h3 {
-    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 4.5vw;
     margin-bottom: 3.8vw;
   }
@@ -239,6 +228,7 @@
 
   #exp > div > div > h5 {
     font-size: 3.4vw;
-    line-height: 4.4vw;
+    line-height: 4vw;
+    margin-top: -2vw;
   }
 }

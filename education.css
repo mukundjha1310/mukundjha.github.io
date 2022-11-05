@@ -1,3 +1,5 @@
+
+
 @media only screen and (min-width: 851px) {
   #edu {
     text-align: center;
@@ -15,18 +17,18 @@
     padding-bottom: 3vw;
   }
   #edu > h1 {
-    font-size: 2.5vw;
+    font-size: 3.4vw;
     color: #ffffff;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
   }
   #edu > hr {
-    width: 11vw;
+    width: 13vw;
     height: 0.35vw;
     background-color: #ff9900;
     color: #ff9900;
     border-radius: 30px;
     border: transparent;
-    margin-top: -1.6vw;
+    margin-top: -2.55vw;
     margin-bottom: 2vw;
   }
   #edu > div {
@@ -37,7 +39,7 @@
 
   #dev {
     display: grid;
-    grid-template-columns: 60% 35%;
+    grid-template-columns: 55% 35%;
     column-gap: 10vw;
     margin-left: -8vw;
   }
@@ -50,7 +52,7 @@
     font-weight: bolder;
     padding: 1vw;
     line-height: 1vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
     padding-left: 3vw;
     background-color: rgba(255, 248, 243, 0.918);
     color: rgb(43, 31, 73);
@@ -67,15 +69,14 @@
   }
 
   #dev > div > h3 {
-    font-size: 2.4vw;
-    margin-bottom: 3vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 3.2vw;
+    margin-bottom: 3.8vw;
+    
   }
 
   #dev > div > h4 {
-    font-size: 1.8vw;
-    line-height: 0.4vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2.2vw;
+    line-height: 0.35vw;
     color: rgb(12, 0, 82);
   }
 
@@ -112,15 +113,15 @@
   }
 
   #bach > div > h3 {
-    font-size: 2.4vw;
-    margin-bottom: 3vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 3.2vw;
+    margin-bottom: 3.6vw;
+    
   }
 
   #bach > div > h4 {
-    font-size: 1.8vw;
-    line-height: 0.4vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2.2vw;
+    line-height: 0.35vw;
+    
     color: rgb(12, 0, 82);
   }
 }
@@ -143,18 +144,18 @@
     padding-bottom: 5vw;
   }
   #edu > h1 {
-    font-size: 3.2vw;
+    font-size: 4.2vw;
     color: #ffffff;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
   }
   #edu > hr {
-    width: 13vw;
-    height: 0.35vw;
+    width: 16vw;
+    height: 0.5vw;
     background-color: #ff9900;
     color: #ff9900;
     border-radius: 30px;
     border: transparent;
-    margin-top: -1.6vw;
+    margin-top: -3vw;
     margin-bottom: 2vw;
   }
   #edu > div {
@@ -165,7 +166,7 @@
 
   #dev {
     display: grid;
-    grid-template-columns: 70% 45%;
+    grid-template-columns: 65% 46%;
     column-gap: 2vw;
     margin-left: -12vw;
   }
@@ -178,7 +179,7 @@
     font-weight: bolder;
     padding: 1vw;
     line-height: 1vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
     padding-left: 4vw;
     background-color: rgba(255, 248, 243, 0.918);
     color: rgb(43, 31, 73);
@@ -195,25 +196,25 @@
   }
 
   #dev > div > h3 {
-    font-size: 3.1vw;
+    font-size: 4.2vw;
     margin-bottom: 3vw;
-    line-height: 3vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 2.6vw;
+    
   }
 
   #dev > div > h4 {
-    font-size: 2.3vw;
+    font-size: 2.8vw;
     line-height: 0.4vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
     color: rgb(12, 0, 82);
   }
 
   #bach {
     margin-top: 4vw;
     display: grid;
-    grid-template-columns: 50% 65%;
+    grid-template-columns: 50% 62%;
     column-gap: 3vw;
-    margin-left: -7vw;
+    margin-left: -10vw;
   }
   #bach > div > img {
     width: 55%;
@@ -241,16 +242,16 @@
   }
 
   #bach > div > h3 {
-    font-size: 3.1vw;
+    font-size: 4.2vw;
     margin-bottom: 3vw;
-    line-height: 3vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 2.8vw;
+    
   }
 
   #bach > div > h4 {
-    font-size: 2.2vw;
+    font-size: 2.8vw;
     line-height: 0.4vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
     color: rgb(12, 0, 82);
   }
 }
@@ -275,19 +276,19 @@
     padding-bottom: 8vw;
   }
   #edu > h1 {
-    font-size: 5.2vw;
+    font-size: 5.8vw;
     color: #ffffff;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
   }
   #edu > hr {
-    width: 26vw;
-    height: 0.5vw;
+    width: 22vw;
+    height: 0.65vw;
     background-color: #ff9900;
     color: #ff9900;
     border-radius: 30px;
     border: transparent;
-    margin-top: -2.7vw;
-    margin-bottom: 2vw;
+    margin-top: -3.6vw;
+    margin-bottom: 4vw;
   }
   #edu > div {
     margin-top: 4vw;
@@ -297,7 +298,7 @@
 
   #dev {
     display: grid;
-    grid-template-columns: 70% 35%;
+    grid-template-columns: 72% 33%;
     column-gap: 1vw;
     margin-left: -11vw;
   }
@@ -309,16 +310,14 @@
     text-align: left;
     font-weight: bolder;
     padding: 1vw;
-    padding-left: 3vw;
-    line-height: 1vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 4vw;
     background-color: rgba(255, 248, 243, 0.918);
     color: rgb(43, 31, 73);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
     border-radius: 15%;
     border-top-left-radius: 20%;
-    border-bottom-right-radius: 40%;
+    border-bottom-right-radius: 54%;
     border-top-right-radius: 10px;
   }
   #dev > div:first-child:hover {
@@ -327,16 +326,16 @@
   }
 
   #dev > div > h3 {
-    font-size: 4.6vw;
-    margin-bottom: 3vw;
-    line-height: 6vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 4.8vw;
+    margin-bottom: 2.6vw;
+    line-height: 4vw;
+    
   }
 
   #dev > div > h4 {
     font-size: 3.5vw;
     line-height: 0.5vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
     color: rgb(12, 0, 82);
   }
 
@@ -357,7 +356,7 @@
     box-sizing: border-box;
     padding: 1vw;
     line-height: 0.9vw;
-    padding-left: 3vw;
+    padding-left: 4vw;
     background-color: rgba(255, 248, 243, 0.918);
     color: rgb(43, 31, 73);
     box-shadow: rgba(0, 0, 0, 0.562) 0px 3px 8px;
@@ -376,13 +375,13 @@
     font-size: 4.6vw;
     line-height: 6vw;
     margin-bottom: 3vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
   }
 
   #bach > div > h4 {
     font-size: 3.5vw;
     line-height: 0.4vw;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    
     color: rgb(12, 0, 82);
   }
 }

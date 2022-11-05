@@ -23,21 +23,21 @@
     font-weight: 600;
   }
   .text-muted {
-    font-size: 1vw;
+    font-size: 1.8vw;
     font-weight: 600;
   }
   .contrib-number {
     color: white;
-    font-size: 2vw;
+    font-size: 2.8vw;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
   }
   #githead {
     text-align: center;
     margin-top: 4vw;
-    font-weight: 900;
-    font-size: 1.6vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 3.1vw;
+    
     background-color: #1b222b;
     color: white;
     padding: 1vw 1vw;
@@ -77,12 +77,11 @@
     font-weight: 600;
   }
   .text-muted {
-    font-size: 2.6vw;
-    font-weight: 600;
+    font-size: 3vw;
   }
   .contrib-number {
     color: white;
-    font-size: 3.4vw;
+    font-size: 4vw;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
   }
@@ -90,8 +89,8 @@
     text-align: center;
     margin-top: 4vw;
     font-weight: 900;
-    font-size: 3.8vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4.2vw;
+    
     background-color: #1b222b;
     color: white;
     padding: 1vw 1vw;

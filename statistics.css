@@ -64,8 +64,6 @@
     line-height: 2.8vw;
     color: #ffc919;
     font-size: 1.7vw;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
   }
 
   #pieContainer1 {
@@ -98,14 +96,13 @@
   }
   #det > div > h4 {
     margin-top: 0.9vw;
-    font-size: 1.4vw;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 2.3vw;
   }
   #det > div > p {
-    margin-top: -1.5vw;
+    margin-top: -2.2vw;
     font-weight: bold;
-    font-size: 1.1vw;
+    font-size: 1.6vw;
+    line-height: 2.2vw;
   }
 }
 
@@ -177,8 +174,6 @@
     line-height: 5.2vw;
     color: #ffc919;
     font-size: 3vw;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
   }
 
   #pieContainer1 {
@@ -211,15 +206,13 @@
   }
   #det > div > h4 {
     margin-top: 2vw;
-    font-size: 2.55vw;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 3.4vw;
   }
   #det > div > p {
     margin-top: -1.5vw;
     font-weight: bold;
-    font-size: 2.2vw;
-    line-height: 3.2vw;
+    font-size: 2.7vw;
+    line-height: 3.4vw;
   }
 }
 
@@ -292,8 +285,6 @@
     line-height: 6vw;
     color: #ffc919;
     font-size: 3.8vw;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
   }
 
   #pieContainer1 {
@@ -326,14 +317,12 @@
   }
   #det > div > h4 {
     margin-top: 1vw;
-    font-size: 3.6vw;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 4vw;
   }
   #det > div > p {
-    margin-top: -1.5vw;
+    margin-top: -2.4vw;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 3.3vw;
     line-height: 4.4vw;
   }
 }
