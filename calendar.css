@@ -23,12 +23,12 @@
     font-weight: 600;
   }
   .text-muted {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-weight: 600;
   }
   .contrib-number {
     color: white;
-    font-size: 2.8vw;
+    font-size: 2.6vw;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
   }
@@ -36,12 +36,22 @@
     text-align: center;
     margin-top: 4vw;
     font-weight: 600;
-    font-size: 3.1vw;
+    font-size: 2.6vw;
     
     background-color: #1b222b;
     color: white;
     padding: 1vw 1vw;
     border: 2px solid rgb(204, 204, 204);
+  }
+
+  #git_stats{
+    width: 100%;
+    display: flex;
+
+  }
+  #git_stats>div{
+    margin: auto;
+    margin-top: 3vw;
   }
 }
 
@@ -96,16 +106,19 @@
     padding: 1vw 1vw;
     border: 2px solid rgb(204, 204, 204);
   }
-  
+  #git_stats{
+    width: 100%;
+  }
+  #git_stats>div{
+    width: 96%;
+    margin: auto;
+    margin-top: 4vw;
+  }
 }
 
 
 #git_graph{
-  width: 95vw;
+  width: 92vw;
   margin: auto;
-}
-#git_graph:hover{
-  width: 100vw;
-  margin: auto;
-  transition: 1s;
+  margin-top: 4vw;
 }

@@ -8,13 +8,13 @@
   }
 
   #contact > h2 {
-    font-size: 3.2vw;
+    font-size: 3vw;
     color: #ffffff;
     
   }
   #contact > hr {
-    width: 13vw;
-    height: 0.45vw;
+    width: 12vw;
+    height: 0.4vw;
     background-color: #ffa600;
     color: #ffa600;
     border-radius: 30px;
@@ -22,11 +22,11 @@
     margin-top: -2.4vw;
   }
   #contact > h1 {
-    font-size: 4.7vw;
+    font-size: 4vw;
     color: #fffbf1;
   }
   #contact > h1:hover {
-    font-size: 4.8vw;
+    font-size: 4.4vw;
     color: #ffc13a;
     transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s;
   }
@@ -84,7 +84,7 @@
   #social_icons > div > h4 > a {
     text-decoration: none;
     color: #fff4dd;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
   }
   #social_icons > div > h4 {
     margin-top: 0.1vw;

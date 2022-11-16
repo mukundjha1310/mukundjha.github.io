@@ -29,13 +29,25 @@
     margin-top: -3.5vw;
   }
   #projects > div {
-    height: 117vw;
+    height: 127vw;
     background-color: rgb(0, 52, 61);
     padding: 2vw;
     padding-bottom: 1vw;
     border-radius: 1vw;
   }
+  #projects > div:first-child{
+    padding-bottom: 8vw;
+  }
+  #projects > div:first-child .tech_stacks_live_btn{
+    margin-top: 72vw;
+  }
+  #projects > div:nth-child(2) .tech_stacks_live_btn{
+    margin-top: 64vw;
+  }
 
+  #projects > div:nth-child(2){
+    height: 122vw;
+  }
   .img_details {
     height: 22vw;
     padding-top: 3vw;
@@ -82,7 +94,7 @@
     margin-left: 2vw;
   }
   .tech_stacks_live_btn {
-    margin-top: 60vw;
+    margin-top: 70vw;
     height: auto;
   }
   .tech_stacks {
@@ -103,6 +115,7 @@
     box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
     transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
   }
+
   .tech_stacks > div > img {
     margin-top: 2.4vw;
     width: 14vw;
@@ -153,7 +166,7 @@
     padding-bottom: 3vw;
   }
   #projects {
-    width: 90vw;
+    width: 80vw;
     margin: auto;
     margin-top: 3vw;
     display: grid;
@@ -174,7 +187,7 @@
     margin-top: -2.4vw;
   }
   #projects > div {
-    height: 36vw;
+    height: 42vw;
     background-color: rgb(0, 52, 61);
     display: grid;
     row-gap: 2vw;
@@ -230,16 +243,16 @@
   }
   .tech_stacks_live_btn {
     display: flex;
-    column-gap: 4vw;
+    column-gap: 0vw;
     margin: auto;
   }
   .tech_stacks {
     width: 32vw;
     display: flex;
     column-gap: 1vw;
-    height: 7vw;
+    height: 7.5vw;
     margin-top: -4vw;
-    margin-left: -1.5vw;
+    margin-left: 1.5vw;
   }
   .tech_stacks > div {
     width: 50%;
@@ -309,13 +322,13 @@
     row-gap: 2vw;
   }
   #projects_div > h1 {
-    font-size: 3.4vw;
+    font-size: 3vw;
     color: rgb(0, 61, 73);
     
   }
   #projects_div > hr {
-    width: 9.5vw;
-    height: 0.45vw;
+    width: 9.4vw;
+    height: 0.4vw;
     background-color: #ff9100;
     color: #ff9100;
     border-radius: 30px;
@@ -374,7 +387,7 @@
 
   .img_details > div > p {
     line-height: 2vw;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
   }
   .tech_stacks_live_btn {
     display: flex;

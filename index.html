@@ -41,26 +41,31 @@
     <div id="hometop"></div>
 
     <header class="header">
-      <a href="index.html"><img src="MJLogo.jpg" alt="Img" /></a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn"
-        ><span class="navicon"></span
-      ></label>
-      <ul class="menu">
-        <li><a href="#hometop">HOME</a></li>
-        <li><a href="#About">ABOUT</a></li>
-        <li><a href="#Educations">EDUCATIONS</a></li>
-        <li><a href="#Skills">SKILLS</a></li>
-        <li><a href="#project_sec">PROJECTS</a></li>
-        <li><a href="#contact">CONTACTS</a></li>
-        <li>
-          <a
-            href="https://drive.google.com/file/d/1GXw6wWibrTGHNzLaJl0fGLxc5l-5LRGm/view"
-            target="_blank"
-            >RESUME</a
-          >
-        </li>
-      </ul>
+      <nav class="navbar">
+        <a href="#hometop" class="nav-logo"
+          ><img src="MJLogo.jpg" alt="MJ"
+        /></a>
+        <ul class="nav-menu">
+          <li><a href="#hometop">HOME</a></li>
+          <li><a href="#About">ABOUT</a></li>
+          <li><a href="#Educations">EDUCATIONS</a></li>
+          <li><a href="#Skills">SKILLS</a></li>
+          <li><a href="#project_sec">PROJECTS</a></li>
+          <li><a href="#contact">CONTACTS</a></li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1GXw6wWibrTGHNzLaJl0fGLxc5l-5LRGm/view"
+              target="_blank"
+              >RESUME</a
+            >
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     </header>
 
     <div id="intro_ProfilePic">
@@ -76,8 +81,9 @@
 
         <button id="CV">
           <i class="fa fa-download"></i>
-          <a href="Mukund_Jha_Resume.pdf" target="_blank" download="">
-            Download CV</a
+          <a
+            href="https://drive.google.com/uc?export=download&id=1GXw6wWibrTGHNzLaJl0fGLxc5l-5LRGm"
+            >Download CV</a
           >
         </button>
       </div>
@@ -204,6 +210,33 @@
             </div>
           </div>
         </div>
+
+        <div>
+          <h2>⮞ Tech Tools</h2>
+          <div id="tech_skill">
+            <div>
+              <img src="SB.png" alt="" />
+              <h3>STS</h3>
+            </div>
+            <div>
+              <img src="Visual.png" alt="" />
+              <h3>VS Code</h3>
+            </div>
+            <div>
+              <img src="githubtool.png" alt="" />
+              <h3>GitHub</h3>
+            </div>
+            <div>
+              <img src="Swagger.png" alt="" />
+              <h3>Swagger</h3>
+            </div>
+            <div>
+              <img src="postman.png" alt="" />
+              <h3>PostMan</h3>
+            </div>
+          </div>
+        </div>
+
         <div id="soft_skill_head">
           <h2>⮞ Soft Skills</h2>
           <div id="soft_skill">
@@ -281,6 +314,59 @@
       <div id="projects">
         <div>
           <div class="img_details">
+            <img src="logo-color1.png" alt="" />
+            <div>
+              <h3>CloudBus</h3>
+              <p>
+                ⮞ CloudBus is a Bus Reservation System Application REST API.
+              </p>
+              <p>
+                ⮞ This REST API performs all the fundamental CRUD operations of
+                any Bus Reservation Application.
+              </p>
+              <p>
+                ⮞ Collaborative four-member team project completed in 4 days.
+              </p>
+            </div>
+          </div>
+          <div class="tech_stacks_live_btn">
+            <div class="tech_stacks">
+              <div>
+                <img src="java.png" />
+              </div>
+              <div>
+                <img src="SB.png" />
+              </div>
+              <div>
+                <img src="hibernate.png" />
+              </div>
+              <div>
+                <img src="Swagger.png" />
+              </div>
+            </div>
+            <div class="gitBtn">
+              <a
+                href="https://github.com/sanjanyadav420/gorgeous-mole-3580"
+                target="_blank"
+                ><button>
+                  GitHub Repo
+                  <i style="font-size: 1.6vw" class="fa">&#xf09b;</i>
+                </button></a
+              >
+              <a
+                href="https://drive.google.com/file/d/1uydumTQ7xWQkCa9ZX3ylrZFqQ5728MUR/view?usp=share_link"
+                target="_blank"
+                ><button>
+                  Presn Video
+                  <i style="font-size: 1.5vw" class="fa">&#xf08e;</i>
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="img_details">
             <img src="DotandKey.png" alt="" />
             <div>
               <h3>Dot&Key Clone</h3>
@@ -289,7 +375,9 @@
                 ⮞ A user-friendly, accessible, dynamic web page to enable users
                 to easily navigate the website.
               </p>
-              <p>⮞ Collaborative six-member team project.</p>
+              <p>
+                ⮞ Collaborative six-member team project completed in 6 days.
+              </p>
             </div>
           </div>
           <div class="tech_stacks_live_btn">
@@ -306,7 +394,7 @@
             </div>
             <div class="gitBtn">
               <a
-                href="https://github.com/mukundjha1310/WEB-19_Team_Dominator"
+                href="https://github.com/mukundjha1310/DotandKey.com"
                 target="_blank"
                 ><button>
                   GitHub Repo
@@ -314,7 +402,7 @@
                 </button></a
               >
               <a
-                href="https://mukundjha1310.github.io/Dot_and_Key_Clone.github.io/"
+                href="https://aesthetic-mooncake-684990.netlify.app/index.html"
                 target="_blank"
                 ><button>
                   Live Site <i style="font-size: 1.5vw" class="fa">&#xf08e;</i>
@@ -336,7 +424,9 @@
                 ⮞ A user-friendly, accessible, dynamic web page to enable users
                 to easily navigate the website.
               </p>
-              <p>⮞ Collaborative four-member team project.</p>
+              <p>
+                ⮞ Collaborative four-member team project completed in 5 days.
+              </p>
             </div>
           </div>
           <div class="tech_stacks_live_btn">
@@ -353,7 +443,7 @@
             </div>
             <div class="gitBtn">
               <a
-                href="https://github.com/mukundjha1310/irritating-nerve-230"
+                href="https://github.com/mukundjha1310/Envoy.com"
                 target="_blank"
                 ><button>
                   GitHub Repo
@@ -378,6 +468,23 @@
       <i style="font-size: 2.2vw" class="fa">&#xf09b;</i> GitHub Contributions
     </div>
     <div class="calendar" id="gitHubStyle"></div>
+
+    <div id="git_stats">
+      <div align="center">
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com/?user=mukundjha1310&theme=algolia"
+          alt="mukundjha1310's GitHub stats"
+          width="100%"
+        />
+      </div>
+      <div align="center">
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=mukundjha1310&count_private=true&theme=algolia"
+          alt="mukundjha1310's GitHub stats"
+          width="100%"
+        />
+      </div>
+    </div>
 
     <div id="git_graph">
       <p>
@@ -476,4 +583,25 @@
   GitHubCalendar(".calendar", "mukundjha1310");
 
   GitHubCalendar(".calendar", "mukundjha1310", { responsive: true });
+</script>
+
+<script>
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector(".nav-menu");
+
+  hamburger.addEventListener("click", mobileMenu);
+
+  function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  }
+
+  const navLink = document.querySelectorAll(".nav-menu");
+
+  navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+  function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
 </script>
