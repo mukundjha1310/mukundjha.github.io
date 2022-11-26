@@ -106,7 +106,7 @@
   #soft_skill h3:hover {
     box-shadow: rgba(0, 238, 255, 0.795) 0px 5px 15px;
     transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.25s;
-    font-size: 3.25vw;
+    font-size: 3.65vw;
   }
   #soft_skill_head {
     margin-top: 4vw;
@@ -348,7 +348,7 @@
   #soft_skill h3:hover {
     box-shadow: rgba(0, 238, 255, 0.877) 0px 5px 15px;
     transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.25s;
-    font-size: 1.45vw;
+    font-size: 1.65vw;
   }
   #soft_skill_head {
     margin-top: 4vw;
