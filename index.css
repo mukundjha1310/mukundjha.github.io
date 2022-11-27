@@ -15,7 +15,15 @@ body {
     background-position: 100%;
   }
 }
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
 
+body::-webkit-scrollbar {
+  display: none;
+}
 li {
   list-style: none;
 }
@@ -27,6 +35,7 @@ a {
 .header {
   border-bottom: 1px solid #e2e8f0;
   position: fixed;
+  margin: auto;
   z-index: 100;
   background-color: #ffffff;
   width: 100%;
@@ -82,16 +91,6 @@ a {
 .nav-item {
   margin-left: 5rem;
 }
-
-/* .nav-link{
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: #475569;
-}
-
-.nav-link:hover{
-  color: #482ff7;
-} */
 
 .nav-logo img {
   width: 60px;
@@ -369,15 +368,7 @@ a {
 }
 
 @media only screen and (max-width: 500px) and (min-width: 0px) {
-  body {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow-y: scroll;
-  }
-
-  body::-webkit-scrollbar {
-    display: none;
-  }
+  
   #intro_ProfilePic {
     width: 100%;
     margin: auto;
