@@ -35,17 +35,21 @@
     padding-bottom: 1vw;
     border-radius: 1vw;
   }
+
   #projects > div:first-child{
     padding-bottom: 8vw;
   }
-  #projects > div:first-child .tech_stacks_live_btn{
-    margin-top: 72vw;
+  #projects > div:nth-child(2){
+    padding-bottom: 8vw;
   }
   #projects > div:nth-child(2) .tech_stacks_live_btn{
+    margin-top: 72vw;
+  }
+  #projects > div:nth-child(3) .tech_stacks_live_btn{
     margin-top: 64vw;
   }
 
-  #projects > div:nth-child(2){
+  #projects > div:nth-child(3){
     height: 122vw;
   }
   .img_details {
@@ -97,6 +101,23 @@
     margin-top: 70vw;
     height: auto;
   }
+  .tech_stacks > div .techStack {
+    visibility: hidden;
+    font-weight: 900;
+    font-size: 4vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 239, 15);
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    margin-left: -16vw;
+    margin-top: -7vw;
+  }
+  .tech_stacks > div:hover .techStack{
+    visibility: visible;
+  }
   .tech_stacks {
     width: 90%;
     display: flex;
@@ -108,6 +129,7 @@
     text-align: center;
     align-items: center;
     padding: 1vw;
+    margin: 1vw;
     border-radius: 30%;
     border-top-left-radius: 5px;
   }
@@ -246,6 +268,27 @@
     column-gap: 0vw;
     margin: auto;
   }
+  #projects > div:first-child .tech_stacks_live_btn{
+    column-gap: 17vw;
+    margin-top: 10vw;
+  }
+  .tech_stacks > div .techStack {
+    visibility: hidden;
+    font-weight: 900;
+    font-size: 1.6vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 239, 15);
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    margin-left: -7vw;
+    margin-top: -4vw;
+  }
+  .tech_stacks > div:hover .techStack{
+    visibility: visible;
+  }
   .tech_stacks {
     width: 32vw;
     display: flex;
@@ -336,7 +379,7 @@
     margin-top: -2vw;
   }
   #projects > div {
-    height: 32vw;
+    height: 27vw;
     background-color: rgb(0, 52, 61);
     display: grid;
     row-gap: 2vw;
@@ -347,10 +390,10 @@
 
   .img_details {
     display: flex;
-    height: 22vw;
+    height: 18vw;
   }
   .img_details > img {
-    width: 55%;
+    width: 50%;
     border-radius: 3vw;
     border-top-left-radius: 0.3vw;
   }
@@ -391,15 +434,18 @@
   }
   .tech_stacks_live_btn {
     display: flex;
-    column-gap: 6vw;
+    column-gap: 8vw;
     margin: auto;
+  }
+  #projects > div:first-child .tech_stacks_live_btn{
+    column-gap: 22vw;
   }
   .tech_stacks {
     width: 25vw;
     display: flex;
     column-gap: 1vw;
     height: 7vw;
-    margin-top: -4vw;
+    margin-top: -3.5vw;
   }
   .tech_stacks > div {
     width: 50%;
@@ -413,6 +459,23 @@
   .tech_stacks > div:hover {
     box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
     transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+  .tech_stacks > div .techStack {
+    visibility: hidden;
+    font-weight: 900;
+    font-size: 1.7vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 239, 15);
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    margin-left: -6vw;
+    margin-top: -3.5vw;
+  }
+  .tech_stacks > div:hover .techStack{
+    visibility: visible;
   }
   .tech_stacks > div > img {
     height: 100%;
